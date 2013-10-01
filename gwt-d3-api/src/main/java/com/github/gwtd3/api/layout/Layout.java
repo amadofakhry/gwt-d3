@@ -64,4 +64,8 @@ public class Layout<L extends Layout<L>> extends JavaScriptObject {
 	public final native TreemapLayout treemap() /*-{
 		return this.treemap();
 	}-*/;
+
+	public final native PartitionLayout partition() /*-{
+		return this.partition();
+	}-*/;
 }
